@@ -2,7 +2,7 @@
 {
     "name": "Helpdesk Ticket",
     "summary": "Module ticket",
-    "version": "1.0.0,
+    "version": "13.0.1.0.0",
     "category": "Uncategorized",
     "author": "Manuel Benitez",
     "license": "AGPL-3",
