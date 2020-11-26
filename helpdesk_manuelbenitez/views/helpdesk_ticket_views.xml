@@ -16,4 +16,57 @@
 
   <menuitem id="helpdesk_ticket_menu" parent="helpdesk_ticket_main_menu" action="helpdesk_ticket_action" sequence="10"/>
 
+  <record id="view_helpdesk_tree" model="ir.ui.view">
+        	<field name="name">view_helpdesk_tree</field>
+        	<field name="model">helpdesk.ticket</field>
+        	<field name="arch" type="xml">
+            	<tree string="Helpdesk">
+   		          <field name="name"/>
+                <field name="date"/>
+                <field name="state"/>
+           	</tree>
+        	</field>
+    </record>
+
+  
+  <record id="view_helpdesk_ticket_form" model="ir.ui.view">
+			<field name="name">form_helpdesk_view</field>
+			<field name="model">helpdesk.ticket</field>
+			<field name="arch" type="xml">
+				<form string="label">
+					<header>
+						<button string="Assing" name="set_assigned" type="object" />
+                    	<button string="In progress" name="set_progress" type="object" states="assigned"/>
+                    	<button string="Waiting" name="set_waiting" type="object" states="assigned,inprogress"/>
+                    	<button string="Done" name="set_done" type="object" states="waiting,inprogress,assigned,new"/>
+                    	<button string="Cancel" name="set_cancel" type="object" states="new,assigned,inprogress,waiting,done"/>	
+						<field name="state" widget="statusbar" statusbar_visible="new,assigned,inprogress,pending,resolved,cancel"/>
+					</header>
+					<sheet>
+						<div>
+							<h1>Ticket # <field name="name" class="oe_inline"/></h1>
+						</div>
+						 
+						 <group name="main">
+						 	<group name="left">
+						 		<field name="date"/>
+								 <field name="limit_date"/>
+						 	</group>
+						 	<group name="right">
+						 		<field name="assign"/>
+								 <field name="dedicated_time"/>
+						 	</group>
+						 </group>
+						 <notebook>
+							<page string="Main">
+								<group string="Description">
+									<field name="description" nolabel="1"/>
+								</group>	
+							</page>
+						</notebook>
+					</sheet>
+				</form>
+			</field>
+    </record>
+
 </odoo>
