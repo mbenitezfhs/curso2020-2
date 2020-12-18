@@ -1,17 +1,30 @@
-Tareas para la semana 23 Noviembre
-Cada alumno creará un módulo helpdesk con su nombre, por ejemplo yo crearé el módulo "helpdesk_angelmoya".
+# curso2020-2
 
-Todos trabajaremos en el mismo repositorio, pero cada uno en su módulo en su fork.
+Por favor, que cada uno ponga en este fichero su login de discord y de github e indique si le ha ido bien en la instalación.
 
-Creación de modelo, seguridad y menu.
-Lo primero que haremos será crear el modelo helpdesk.ticket, con los campos:
+Revisar también si el nombre y apellidos son correctos.
 
-Nombre
-Descripción
-Fecha
-Hacer dos grupos de usuario, helpdesk_manager y helpdesk_user
-
-Hacer el menú Helpesk/Helpdesk/Tickets
-
-Mejorar la vista de formulario y listado y añadir campos.
-Añadir método y traducir.
+| Nombre | Apellidos | Discord | Github | Instalación (SI/NO) | Git (SI/NO) |
+| -- | -- | -- | -- | -- | -- |
+| Luis Miguel | Arpón | LuisMiguel_Hergar#9485 | luismiguelarpon | SI | SI |
+| Manuel | Barbadillo | | | | |
+| Juan Manuel | Beltrán Osa | Juanma_Tyrantbit | Tyrantbit | SI | SI |
+| Daniel | Casado Villanueva | | | | |
+| Ramón | Castro Casariego |Ramón|RCasariego|Si|Si|
+| Rafael | Doña Martínez | rafadm98#0934 | rafadm98 | SI | SI |
+| Gerard | Funosas i Planas | gerard_gfunosas#7596 | gfunosas | SI | SI |
+| Edin | Guermas Argiles | | | | |
+| Osiris Javier | Gutierrez Gomez | Osiris#0783 | ojaviergtz | SI | SI |
+| Angel | Ivorra | Angel Ivorra | aivorraticomsa | SI | SI |
+| Alejandro | López | alejandrolopez#5457 | alejandrobyte | SI | SI |
+| Enrique | López de Roda López | EnriqueLRL#1799 | e-lrl | SI | SI |
+| Salvador | Madrid | Salva Madrid | smad2 | SI | SI |
+| Pablo | Moreno | Pablo Moreno | pmm2207 | SI | SI |
+| Jesús Jorge | Muñoz |Jesús JM |jesusjmclue |SI |SI |
+| Jesús Jorge | Muñoz | | | | |
+| Claudio | Piras | | | | |
+| Alvaro | Pita Martin | | | | |
+| César | Sahagún | César#1887 | cesaraeodoo | SI | SI |
+| José Ramón | Santos Insua | Santos | santos-dev | SI | SI |
+| Betina | Solana | Betina#6482 | betinasolana | SI | SI |
+| Manuel Jesus | Benítez | Manu Benitez#8944 | mbenitezfhs | SI | SI |

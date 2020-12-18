@@ -14,6 +14,10 @@
     "data": [
         "security/some_model_security.xml",
         "security/ir.model.access.csv",
-        "views/helpdesk_ticket_views.xml",
+        'wizards/new_ticket_from_tag_views.xml',
+        'views/helpdesk_ticket_views.xml',
+        'views/helpdesk_tag_views.xml',
+        'views/helpdesk_action_views.xml',
+        'data/helpdesk_data.xml',
     ]
 }
